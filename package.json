@@ -1,0 +1,21 @@
+{
+  "name": "keycloak-auth",
+  "version": "1.0.0",
+  "description": "Keycloak authentication service",
+  "main": "src/keycloak.ts",
+  "scripts": {
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "dev": "docker-compose up"
+  },
+  "dependencies": {
+    "@keycloak/keycloak-admin-client": "^21.1.1",
+    "keycloak-js": "^21.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  },
+  "author": "sakshikore",
+  "license": "MIT"
+} 
